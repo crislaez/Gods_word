@@ -1,0 +1,7 @@
+{
+  "name": "gods-word",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
