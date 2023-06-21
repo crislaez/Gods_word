@@ -1,0 +1,13 @@
+@import '../../../theme/variables';
+
+:host{
+  width: 100%;
+
+  ion-card {
+    margin-bottom: 10px;
+    margin: 0 auto;
+    z-index: 5 !important;
+    box-shadow: 0px 0px 3px $sixtiary;
+  }
+
+}

@@ -1,0 +1,11 @@
+@import '../../../../theme/variables.scss';
+
+app-verse-card, app-skeleton-card {
+  margin-bottom: 20px !important;
+}
+
+ion-accordion {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid $sixtiary;
+}

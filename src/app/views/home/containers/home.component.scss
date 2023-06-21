@@ -1,0 +1,15 @@
+@import '../../../../theme/variables.scss';
+
+app-book-card, app-skeleton-card {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.last-verse-div {
+  width: 94%;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  z-index: 5 !important;
+  box-shadow: 0px 0px 3px $primary;
+  padding: 10px;
+}

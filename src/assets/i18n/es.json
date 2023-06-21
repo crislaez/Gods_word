@@ -1,0 +1,59 @@
+{
+  "COMMON":{
+    "TITLE":"God´s Word",
+    "HOME":"Inicio",
+    "ERROR":"Ha ocurrido un error, desliza hacia abajo para recargar",
+    "NORESULT":"No hay datos, desliza hacia abajo para recargar",
+    "MENU":"Menú",
+    "NO_DATA":"No hay datos, desliza hacia abajo para recargar",
+    "NO_SEARCH_DATA":"No hay resultados",
+    "SEARCH":"Buscador",
+    "SEARCH_BY_BOOK":"Buscar por libro...",
+    "SEARCH_ANY":"Busca algún capítulo o libro",
+    "DAILY_DEVOTIONAL":"Devocional diario",
+    "HOW_IS_HE":"¿Quien es Jesús?",
+    "SEND":"Compartir",
+    "CLOSE":"Cerrar",
+    "LAST_VERSE":"Último versículo",
+    "SEARCH_BOOK_OR_PASSAGE":"Busca algun versículo o libro",
+    "DISCIPLESHIPS":"Discipulados",
+    "FOLLOW_LORD":"Sigue al Señor",
+    "HOPE":"Esperanza",
+    "LOVE":"Amor",
+    "SAVED":"Guardados",
+    "SORRY":"Perdón",
+    "BOOKS":"Libros",
+    "BOOK":"Libro",
+    "FAMILY":"Familia",
+    "MARRIAGE":"Matrimonio",
+    "SALVATION":"Salvación",
+    "SAVE":"Guardar",
+    "DELETE":"Eliminar",
+    "FINANCE":"Finanzas",
+    "SAVE_VERSE_SUCCESS":"Versiculos guardados",
+    "DELETE_VERSE_SUCCESS":"Versiculos eliminado",
+    "VERSE_FAILURE":"Ha ocurrido un error",
+    "CREATE_BY":"by Crislaez",
+    "APP_DESCRIPTION":"God´s Word es una aplicación donde puedes encontrar los libros de la Biblia, consultar los versiculos,guardarlos, compartirlos, con devocionales diarios...",
+    "APP_FIND":"Cualquier duda o problema, puedes contactarme en crislaez30@gmail.com, o a través de los siguientes enlaces",
+    "APP_FAREWELL":"Muchas gracias :)",
+    "VERSION":"Version 1.0.0"
+  },
+  "ERRORS":{
+    "LOADING":"Ha ocurrido un error al intentar cargar los datos",
+    "BOOKS":"Ha ocurrido un error al intentar cargar los libros",
+    "VERSES":"Ha ocurrido un error al intentar cargar los versiculos",
+    "VERSE_OF_DAY":"Ha ocurrido un error al intentar el versículo del día",
+    "LAST_VERSE":"Ha ocurrido un error al intentar el ultimo versículo"
+  },
+  "SAVES":{
+    "VERSES": "Versiculo guardado correctamente"
+  },
+  "DELETE":{
+    "VERSES": "Versiculo borrado correctamente"
+  },
+  "FILTERS":{
+    "BY_BOOK":"Libro...",
+    "BY_VERSE":"Versiculo..."
+  }
+}
