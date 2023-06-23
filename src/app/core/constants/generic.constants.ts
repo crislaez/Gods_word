@@ -23,3 +23,9 @@ export const HEADERS = new HttpHeaders({
 });
 
 export const SHARED_WEB_URL = 'https://www.biblegateway.com/passage/?search=VERSE&version=RVR1960'
+
+export const MAIL_TO_EMAIL = 'mailto:crislaez30@gmail.com?';
+
+export const TWITTER_URL = 'https://twitter.com/crislaez';
+
+export const GITHUB_URL = 'https://github.com/crislaez';

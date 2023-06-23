@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { GITHUB_URL, MAIL_TO_EMAIL, TWITTER_URL } from '@godsWord/core/constants/generic.constants';
 import { ModalService } from '@godsWord/core/modal/modal.service';
 import { IonicModule } from '@ionic/angular';
 import { TranslateModule } from '@ngx-translate/core';
@@ -6,8 +7,8 @@ import { TranslateModule } from '@ngx-translate/core';
 @Component({
   selector: 'app-app-info-modal',
   template: `
-  <ion-header class="ion-no-border components-background-dark">
-    <ion-toolbar class="components-background-dark">
+  <ion-header class="ion-no-border cb-dark">
+    <ion-toolbar class="cb-dark">
       <ion-title class="tc-dark">{{ '' }}</ion-title>
       <ion-buttons class="tc-dark" slot="end">
         <ion-button class="ion-button-close" (click)="modalService.dismiss()"><ion-icon fill="clear" class="tc-dark" name="close-outline"></ion-icon></ion-button>
@@ -16,7 +17,7 @@ import { TranslateModule } from '@ngx-translate/core';
   </ion-header>
 
   <ion-content [fullscreen]="true" [scrollEvents]="true" >
-    <div class="container components-background-dark tc-dark">
+    <div class="container cb-dark tc-dark">
       <div class="title-wrapper displays-center">
         <h2>{{ 'COMMON.TITLE' | translate }} </h2>
 
@@ -37,7 +38,7 @@ import { TranslateModule } from '@ngx-translate/core';
         <div clas="empty-div"></div>
 
         <div class="displays-center">
-          <ion-icon name="mail-outline" (click)="redirect('mail')"></ion-icon>
+          <ion-icon name="mail-outline" (click)="redirect('email')"></ion-icon>
           <ion-icon name="logo-twitter" (click)="redirect('twitter')"></ion-icon>
           <ion-icon name="logo-github" (click)="redirect('github')"></ion-icon>
         </div>
@@ -70,11 +71,11 @@ export class AppInfoModalComponent {
   ) { }
 
 
-  redirect(to: 'mail' | 'twitter' | 'github'): void {
+  redirect(to: 'email' | 'twitter' | 'github'): void {
     const actions = {
-      'mail':() => window.location.href = 'mailto:crislaez30@gmail.com?',
-      'twitter':() => window.location.href = 'https://twitter.com/crislaez',
-      'github':() => window.location.href = 'https://github.com/crislaez'
+      'email':() => window.location.href = MAIL_TO_EMAIL,
+      'twitter':() => window.location.href = TWITTER_URL,
+      'github':() => window.location.href = GITHUB_URL
     }?.[to]?.();
   }
 

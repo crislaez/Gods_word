@@ -125,7 +125,6 @@ export class AppComponent {
     return redirectTo?.[route] || '/home';
   }
 
-
   async lockAppOrientation(): Promise<void> {
     await ScreenOrientation.lock({orientation: 'portrait'})
   }
